@@ -133,3 +133,12 @@ python manage.py migrate
 ### (2) Super User 계정 만들어주기
 
 super user는 모든 게시물들을 관리하는 메니저로, db에 오고가는 정보들을 확인할 수 있다.
+
+```cmd
+python manage.py createsuperuser
+python manage.py runserver
+```
+
+이후 development server 옆에 써져 있는 ip 주소를 chrome창에 치면 아래와 같은 화면이 나오는데, ip주소\admin 이렇게 치면 아까 createsuperuser로 기입한 아이디와 비번으로 로그인할 수 있다.
+
+![](2020-06-17-21-27-41.png)
